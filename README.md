@@ -6,7 +6,7 @@ This project is about an **geomarketing Application, market shared, geolocation,
 - [x] Market share,
 - [x] Mapping,
 - [x] Network cover Zone,
-- [x] Statist analysis,
+- [x] Statistical analysis,
 - [x] and more ...)
 
 It includes most of angular concepts
