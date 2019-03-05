@@ -1,1 +1,317 @@
 /* You can add global styles to this file, and also import other style files */
+
+html,
+body {
+  height: 100%;
+}
+body {
+  margin: 0;
+  font-family: Roboto, "Helvetica Neue", sans-serif;
+}
+
+h5 {
+  margin: 2rem 0 2rem 1rem;
+  border-bottom: #673ab7 3px groove;
+  padding-bottom: 0.8rem;
+}
+.map {
+  // margin-top: 2rem;
+}
+table {
+  margin-bottom: 1.5rem !important;
+  td {
+    padding: 1rem !important;
+  }
+}
+.stats {
+  margin-top: 1.3rem;
+}
+h6.tab {
+  font-size: 1.4rem;
+  border-bottom: #673ab7 1px groove;
+  padding-bottom: 0.8rem;
+  width: 100%;
+  text-align: left;
+  img {
+    padding-right: 7px;
+    height: 20px;
+    width: 25px;
+    top: 3px;
+  }
+}
+.deps-list {
+  h5 {
+    font-size: 1.1rem !important;
+    margin-top: 2.5rem;
+    margin-bottom: 0.6rem !important;
+  }
+  ul {
+    padding-left: 1.5rem;
+  }
+}
+
+input:focus,
+input,
+textarea {
+  border-bottom: none !important;
+  box-shadow: none !important;
+  height: 1.2rem !important;
+}
+th {
+  font-weight: 600 !important;
+  color: slategray !important;
+  padding-left: 10px;
+}
+tr.mat-footer-row {
+  font-weight: bold;
+}
+
+p.actions {
+  button {
+    margin-right: 1.5rem;
+  }
+}
+
+.mat-tab-label {
+  min-width: 200px;
+}
+
+.mat-tab-header {
+  margin: auto;
+  margin-bottom: 2rem;
+}
+
+img.pers-icons {
+  height: 30px;
+  margin-right: 10px;
+  position: relative;
+  bottom: -8px;
+}
+
+@media only screen and (min-width: 993px) {
+  .container {
+    width: 96% !important;
+  }
+}
+
+h1 {
+  font-size: 2rem !important;
+}
+
+.section.banner {
+  margin-top: 0 !important;
+  height: 70vh;
+}
+
+.center-content {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.call_container > * {
+  padding: 0 !important;
+  overflow: hidden !important;
+}
+.preboot {
+  min-height: 250px;
+}
+
+.spinnerContainer {
+  margin-top: 100px;
+}
+
+//loading spinner
+.spinner {
+  margin: 100px auto;
+  width: 50px;
+  height: 40px;
+  text-align: center;
+  font-size: 10px;
+  margin-top: 0px;
+}
+
+.spinner > div {
+  background-color: #673ab7;
+  height: 55px;
+  width: 6px;
+  margin-right: 1.5px;
+  display: inline-block;
+
+  -webkit-animation: sk-stretchdelay 1.2s infinite ease-in-out;
+  animation: sk-stretchdelay 1.2s infinite ease-in-out;
+}
+
+.spinner .rect2 {
+  -webkit-animation-delay: -1.1s;
+  animation-delay: -1.1s;
+}
+
+.spinner .rect3 {
+  -webkit-animation-delay: -1s;
+  animation-delay: -1s;
+}
+
+.spinner .rect4 {
+  -webkit-animation-delay: -0.9s;
+  animation-delay: -0.9s;
+}
+
+.spinner .rect5 {
+  -webkit-animation-delay: -0.8s;
+  animation-delay: -0.8s;
+}
+@-webkit-keyframes sk-stretchdelay {
+  0%,
+  40%,
+  100% {
+    -webkit-transform: scaleY(0.4);
+  }
+  20% {
+    -webkit-transform: scaleY(1);
+  }
+}
+
+@keyframes sk-stretchdelay {
+  0%,
+  40%,
+  100% {
+    transform: scaleY(0.4);
+    -webkit-transform: scaleY(0.4);
+  }
+  20% {
+    transform: scaleY(1);
+    -webkit-transform: scaleY(1);
+  }
+}
+
+// map
+.leaflet-popup-content {
+  width: 190px !important;
+}
+.leaflet-control-measure {
+  position: absolute;
+  top: 205px;
+}
+.layers-control-img {
+  font-size: 13px;
+  cursor: pointer;
+  max-width: 45px;
+  overflow: hidden;
+  max-height: 40px;
+  cursor: pointer;
+  display: inline-block;
+  vertical-align: middle;
+}
+.layers-control-img img {
+  height: 35px;
+  width: 35px;
+}
+
+.leaflet-control-search .search-button {
+  background-size: 21px 22px;
+  margin-left: 3px;
+  width: 25px;
+  height: 25px;
+}
+.leaflet-popup-content-wrapper button {
+  display: inline-block;
+  padding: 5px 10px;
+  font-size: 16px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  margin-right: 5px;
+  outline: none;
+  color: rgb(104, 9, 9);
+  background-color: #4caf50;
+  border: none;
+  border-radius: 5px;
+  box-shadow: 0 5px #999;
+}
+.wayBtn {
+  font-size: 11px !important;
+  color: #fff;
+}
+
+.leaflet-popup-content-wrapper button:hover,
+.customPopup button:active {
+  background-color: #3e8e41;
+}
+
+.leaflet-popup-content-wrapper button:active,
+.customPopup button:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+.leaflet-popup-content-wrapper button span {
+  position: relative;
+  top: -8px;
+}
+
+.leaflet-tooltip.my-labels {
+  background-color: transparent;
+  border: transparent;
+  color: #673ab7;
+  font-weight: 600;
+}
+.leaflet-bottom .leaflet-control {
+  margin-bottom: 10px;
+  background: white;
+  padding: 8px;
+}
+
+/** custom popup */
+div.customPopup {
+  position: relative;
+  width: 100%;
+  margin: 0;
+  height: 100%;
+  max-width: 300px;
+  overflow: hidden;
+  .user_info {
+    padding: 5px 5px 0 13px;
+    h6 {
+      padding-left: 25px;
+      font-weight: 600;
+      color: #004d40;
+      font-size: 1rem;
+    }
+    i {
+    }
+  }
+  img {
+    position: relative;
+    width: 100%;
+    height: 150px;
+  }
+  button,
+  a {
+    margin-top: 5px;
+    margin-bottom: 10px;
+    font-size: 12px;
+    float: right;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    padding: 3px 10px;
+    background-color: #4caf50;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0 5px #999;
+  }
+}
+
+.myCustomPopupPlacement {
+  bottom: 3px;
+}
+.leaflet-popup-content {
+  background: transparent;
+  margin: 0;
+  line-height: 1.4;
+}

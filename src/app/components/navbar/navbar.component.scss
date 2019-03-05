@@ -1,0 +1,21 @@
+a img {
+  width: 90px;
+}
+.helix {
+  margin-left: 15px;
+  width: 109px !important;
+}
+a {
+  color: #000;
+  margin-right: 10px;
+}
+.dropdown-content a {
+  color: #000 !important;
+  font-size: 12px;
+  display: block;
+  line-height: 22px;
+  padding: 3px 9px;
+  &:hover {
+    color: #ba68c8 !important;
+  }
+}

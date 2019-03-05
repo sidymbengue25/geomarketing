@@ -1,0 +1,28 @@
+<nav>
+  <div class="nav-wrapper white">
+    <a routeLink="/home" class="brand-logo">
+      <img
+        class="helix"
+        src="../../../assets/images/helix.png"
+        alt=""
+        width="80px"
+      />
+      <img src="../../../assets/images/expresso.jpg" alt="" width="80px" />
+    </a>
+    <ul id="nav-mobile" class="right hide-on-med-and-down">
+      <li routerLinkActive="active"><a routerLink="/home">Acceuil</a></li>
+      <li routerLinkActive="active">
+        <a href="#" class="dropdown-trigger" #dropd data-target="regs"
+          >Régions
+        </a>
+      </li>
+      <li><a>About us</a></li>
+    </ul>
+  </div>
+</nav>
+
+<ul id="regs" class="dropdown-content">
+  <li *ngFor="let reg of regions" routerLinkActive="active">
+    <a [href]="'/regions/' + reg.nom">{{ reg.nom }}</a>
+  </li>
+</ul>

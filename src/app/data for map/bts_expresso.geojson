@@ -1,0 +1,26 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "Commune": "Parcelles Assainies", "Region": "Dakar", "department": "Dakar", "id_dep": 1 }, "geometry": { "type": "MultiPoint", "coordinates": [ [ -17.455392545903674, 14.734867430740691 ] ] } },
+{ "type": "Feature", "properties": { "Commune": "Bambilor", "Region": "Dakar", "department": "Rufisque", "id_dep": 4 }, "geometry": { "type": "MultiPoint", "coordinates": [ [ -17.216150233076259, 14.808690772984578 ] ] } },
+{ "type": "Feature", "properties": { "Commune": "Meouane", "Region": "Thiès", "department": "Tivaouane", "id_dep": 42 }, "geometry": { "type": "MultiPoint", "coordinates": [ [ -16.918122666239825, 14.989147831802971 ] ] } },
+{ "type": "Feature", "properties": { "Commune": "Notto", "Region": "Thiès", "department": "Thiès", "id_dep": 41 }, "geometry": { "type": "MultiPoint", "coordinates": [ [ -16.985110513831501, 14.681550572453437 ] ] } },
+{ "type": "Feature", "properties": { "Commune": "Sindia", "Region": "Thiès", "department": "Mbour", "id_dep": 40 }, "geometry": { "type": "MultiPoint", "coordinates": [ [ -16.941363348057344, 14.542106481548316 ] ] } },
+{ "type": "Feature", "properties": { "Commune": "Notto", "Region": "Thiès", "department": "Thiès", "id_dep": 41 }, "geometry": { "type": "MultiPoint", "coordinates": [ [ -16.806020553943547, 14.648740198122821 ] ] } },
+{ "type": "Feature", "properties": { "Commune": "Thienaba", "Region": "Thiès", "department": "Thiès", "id_dep": 41 }, "geometry": { "type": "MultiPoint", "coordinates": [ [ -16.678880353412406, 14.744437123253787 ] ] } },
+{ "type": "Feature", "properties": { "Commune": "Pikine Dagoudane", "Region": "Dakar", "department": "Pikine", "id_dep": 3 }, "geometry": { "type": "MultiPoint", "coordinates": [ [ -17.382936302590231, 14.764943607210423 ] ] } },
+{ "type": "Feature", "properties": { "Commune": "Darou Miname Ii", "Region": "Kaffrine", "department": "Malème Hodar", "id_dep": 17 }, "geometry": { "type": "MultiPoint", "coordinates": [ [ -15.217451596769518, 14.453928600534779 ] ] } },
+{ "type": "Feature", "properties": { "Commune": "Yang Yang", "Region": "Louga", "department": "Linguère", "id_dep": 25 }, "geometry": { "type": "MultiPoint", "coordinates": [ [ -15.239325179656594, 15.684317637932907 ] ] } },
+{ "type": "Feature", "properties": { "Commune": "Ndiaye Mberess", "Region": "Saint-Louis", "department": "Dagana", "id_dep": 33 }, "geometry": { "type": "MultiPoint", "coordinates": [ [ -16.168952452357402, 16.27490437588401 ] ] } },
+{ "type": "Feature", "properties": { "Commune": "Kouthiaba Ouolof", "Region": "Tambacounda", "department": "Koupentoum", "id_dep": 38 }, "geometry": { "type": "MultiPoint", "coordinates": [ [ -14.391723842782328, 14.464865391978318 ] ] } },
+{ "type": "Feature", "properties": { "Commune": "Velingara", "Region": "Matam", "department": "Ranérou Ferlo", "id_dep": 29 }, "geometry": { "type": "MultiPoint", "coordinates": [ [ -14.271419136903397, 14.978894589824643 ] ] } },
+{ "type": "Feature", "properties": { "Commune": "Bignona", "Region": "Ziguinchor", "department": "Bignona", "id_dep": 43 }, "geometry": { "type": "MultiPoint", "coordinates": [ [ -16.370353387878417, 12.983645836121585 ] ] } },
+{ "type": "Feature", "properties": { "Commune": "Bounkiling", "Region": "Sédhiou", "department": "Bounkiling", "id_dep": 30 }, "geometry": { "type": "MultiPoint", "coordinates": [ [ -15.64217719750933, 13.08644718064428 ] ] } },
+{ "type": "Feature", "properties": { "Commune": "Kolda", "Region": "Kolda", "department": "Kolda", "id_dep": 21 }, "geometry": { "type": "MultiPoint", "coordinates": [ [ -14.854033556168668, 12.846577376757992 ] ] } },
+{ "type": "Feature", "properties": { "Commune": "Tambacounda", "Region": "Tambacounda", "department": "Tambacounda", "id_dep": 39 }, "geometry": { "type": "MultiPoint", "coordinates": [ [ -13.808886553521271, 13.711822026490674 ] ] } },
+{ "type": "Feature", "properties": { "Commune": "Bakel", "Region": "Tambacounda", "department": "Bakel", "id_dep": 36 }, "geometry": { "type": "MultiPoint", "coordinates": [ [ -12.12123114760703, 13.617587460678203 ] ] } },
+{ "type": "Feature", "properties": { "Commune": "Podor", "Region": "Saint-Louis", "department": "Podor", "id_dep": 34 }, "geometry": { "type": "MultiPoint", "coordinates": [ [ -14.322893276134746, 16.1961878524558 ] ] } },
+{ "type": "Feature", "properties": { "Commune": "Goudiry", "Region": "Tambacounda", "department": "Goudiry", "id_dep": 37 }, "geometry": { "type": "MultiPoint", "coordinates": [ [ -12.695205321192077, 14.568499897513131 ] ] } }
+]
+}
